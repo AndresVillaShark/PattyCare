@@ -53,9 +53,9 @@ const Home: React.FC = () => {
             {/* Placeholder for Hero Image - simulating a cutout professional photo */}
             <div className="relative">
               <div className="absolute -inset-4 bg-blue-500/30 rounded-full blur-xl"></div>
-              <img 
-                src="https://picsum.photos/600/600" 
-                alt="Patty Alvarez Medicare Agent" 
+              <img
+                src="/patty.png"
+                alt="Patty Alvarez Medicare Agent"
                 className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full border-8 border-white shadow-2xl"
               />
             </div>
