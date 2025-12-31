@@ -27,10 +27,8 @@ const Home: React.FC = () => {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="relative bg-blue-900 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 opacity-90 z-0"></div>
-        <div className="absolute inset-0 opacity-20 z-0 bg-[url('https://picsum.photos/1920/1080')] bg-cover bg-center"></div>
-        
+      <section className="relative text-white overflow-hidden" style={{backgroundColor: '#2F53E0'}}>
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
